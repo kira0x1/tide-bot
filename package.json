@@ -1,0 +1,20 @@
+{
+  "name": "tide-bot",
+  "version": "1.0.0",
+  "description": "discord music bot",
+  "author": "kira",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "deploy-commands": "node ./scripts/deploy-commands.js"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
